@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2017-01-19 23:34:25 -0800
+---
+
+Here's the stereotypical "Welcome to my blog" post. My name is Daniel Jackson, and I'm a software engineer. I went to Cal Poly, and I've worked at CDM Technologies, Amazon, Apple, and Intuit.
+
+Now that's out of the way, why am I blogging? I don't think I'll be a particularly interesting writer. Instead, for several years I've been compiling a small list of programming problems encountered and (mostly) solved that I wish I had found answered on the Internet. It remains to be seen if I'll manage to write about them before they're obsolete.
+
+Essentially this is going to be my place to put things I wish someone else had written. I've mostly worked on iOS applications, so that'll probably be my main focus.
+
+I'll be surprised if I *don't* abandon this blog for weeks or months at a time.
+
