@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Samsung ML-2851ND Paper Jam
 date: 2017-01-20 01:45:20
 tags: samsung ml-2851
