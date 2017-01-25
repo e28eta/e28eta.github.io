@@ -116,9 +116,11 @@ exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
+  - .rvmrc
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
+  - .powrc
   - .sass-cache
   - assets/js/plugins
   - assets/js/_main.js
@@ -126,6 +128,7 @@ exclude:
   - Capfile
   - CHANGELOG
   - config
+  - config.ru
   - Gemfile
   - Gemfile.lock
   - Gruntfile.js

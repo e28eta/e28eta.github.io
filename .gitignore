@@ -5,3 +5,4 @@ _site/
 .jekyll-metadata
 node_modules
 npm-debug.log*
+/tmp
