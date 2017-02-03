@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Building Swift
+title: Building Swift as a Newbie
 date: 2017-02-02 14:37:18
 tags: swift
 published: true
