@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Building Swift
 date: 2017-02-02 14:37:18
 tags: swift
@@ -36,4 +36,3 @@ Allowing Xcode to auto generate schemes results in **608** to choose from. To my
 Honestly, this isn't the first time I've tried to get set up, and I've probably made the same "mistakes" each time. I'm also coming from *much* smaller projects (although I started my career working on a [10+ million LoC application](http://www.drdobbs.com/tools/building-quickbooks-how-intuit-manages-1/240003694)). So I don't mind admitting that  spending 2+ hours getting the code, compiling it, and running the tests to see them pass **before** attempting to make any changes is enough to make me quit. Several times. Why? I **cannot** believe this is the day-to-day workflow of swift developers, but I also don't know where to find a better workflow. I tried searching with Google, looking through the mailing lists, and reading the official documentation.
 
 This took me all day (with plenty of distractions), and by the end of the day there are 25 new commits! Do I dare pull them, or will that cost me another hour waiting for the project to rebuild?
-
