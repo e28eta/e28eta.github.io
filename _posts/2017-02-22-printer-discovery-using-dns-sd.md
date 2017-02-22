@@ -2,7 +2,7 @@
 layout: single
 title: Printer Discovery using DNS-SD
 date: 2017-02-22 12:55:29
-tags: samsung ml-2851, network setup, ddwrt, dnsmasq
+tags: [samsung ml-2851, network setup, ddwrt, dnsmasq]
 published: true
 ---
 
@@ -41,4 +41,3 @@ This has me seriously considering buying a HomeKit-compatible outlet switch for 
 ----
 
 PS: I've been running [handyPrint](http://www.netputing.com/applications/handyprint-v5/) (formerly AirPrint Activator) for years. It's been a great way to print from iOS.
-

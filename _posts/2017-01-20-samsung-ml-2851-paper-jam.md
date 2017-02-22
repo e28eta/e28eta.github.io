@@ -2,7 +2,7 @@
 layout: single
 title: Samsung ML-2851ND Paper Jam
 date: 2017-01-20 01:45:20
-tags: samsung ml-2851
+tags: [samsung ml-2851]
 published: true
 ---
 Every time I've watched Office Space, I've understood the printer scene intellectually. However I had never experienced a misbehaving printer. Turns out that it **is** quite frustrating.
@@ -22,4 +22,3 @@ After fiddling with the part for a little bit, I decided it felt like it was sti
 ![picture with tape added]({{ site.url }}/images/ml-2851_tape.jpeg)
 
 Such a simple fix, for an incredibly aggravating problem.
-
