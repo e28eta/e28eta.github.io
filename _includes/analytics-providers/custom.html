@@ -1,3 +1,7 @@
 <!-- start custom analytics snippet -->
-
+<script>
+var TRACKING_ID = '{{ site.analytics.google.tracking_id[jekyll.environment] }}';
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+<!-- Custom analytics code included into main.min.js through babel/babili -->
 <!-- end custom analytics snippet -->

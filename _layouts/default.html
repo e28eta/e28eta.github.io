@@ -4,6 +4,9 @@
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
+    <!-- Adds an event listener to capture uncaught errors, used by analytics-boilerplate -->
+    <script>addEventListener('error', window.__e=function f(e){f.q=f.q||[];f.q.push(e)});</script>
+    
     {% include head.html %}
     {% include head/custom.html %}
   </head>
