@@ -6,8 +6,6 @@ tags: iOS, apple, documentation, UIKit, WWDC, WWDC17
 published: true
 ---
 
-# WWDC
-
 I love WWDC. The new announcements are thrilling, new APIs are fantastic, the sessions are incredibly useful, and the access to Apple engineers is unmatched.
 
 I also find it frustrating, primarily because it only happens once a year and some of the best content is locked inside of videos. I'm particularly discouraged when a session covers APIs from a previous year and it's the **only** place that information is available.
