@@ -2,7 +2,7 @@
 layout: single
 title: WWDC Sessions, and `UIResponder textInputContextIdentifier`
 date: 2017-06-13 17:54:54
-tags: iOS, apple, documentation, UIKit, WWDC, WWDC17
+tags: [iOS, apple, documentation, UIKit, WWDC, WWDC17]
 published: true
 ---
 
