@@ -30,8 +30,8 @@
     "uglify-js": "^2.6.1"
   },
   "scripts": {
-    "babili": "babili assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/_main.js _build/js/analytics-boilerplate.js -o assets/js/main.min.js",
-    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -e \"assets/js/analytics-boilerplate.js\" -- npm run babili",
+    "babili": "babili _build/js/analytics-boilerplate.js -o assets/js/analytics-boilerplate.min.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/analytics-boilerplate.js\" -- npm run babili",
     "build:js": "npm run build:analytics && npm run babili",
     "watch:analytics": "onchange \"assets/js/analytics-boilerplate.js\" -- npm run build:js",
     "build:analytics": "mkdir -p _build/js && babel assets/js/analytics-boilerplate.js --out-file _build/js/analytics-boilerplate.js"
