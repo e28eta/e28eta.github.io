@@ -262,7 +262,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compose
-  minimal-mistakes-jekyll
+  minimal-mistakes-jekyll (= 4.11.2)
   rack-jekyll
 
 BUNDLED WITH

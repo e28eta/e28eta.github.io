@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem 'github-pages', group: :jekyll_plugins
-gem 'minimal-mistakes-jekyll'
+gem 'minimal-mistakes-jekyll', '4.11.2'
 
 group :dev do
     gem 'rack-jekyll'
