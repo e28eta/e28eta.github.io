@@ -3,5 +3,5 @@
 var TRACKING_ID = '{{ site.analytics.google.tracking_id[jekyll.environment] }}';
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-<!-- Custom analytics code included into main.min.js through babel/babili -->
+<script src="{{ '/assets/js/analytics-boilerplate.min.js' | relative_url }}"></script>
 <!-- end custom analytics snippet -->
