@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Customization
+$hacker-news-color          : #ff6600 !default;
+
+.social-icons {
+  .fa-hacker-news {
+    color: $hacker-news-color
+  }
+}
