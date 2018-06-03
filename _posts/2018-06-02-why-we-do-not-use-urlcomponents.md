@@ -2,7 +2,7 @@
 layout: single
 title: Why we do not use URLComponents
 date: 2018-06-02 22:07:29
-tags: [iOS, NSURLComponents, URLComponents, NSURLQueryItem, URLQueryItem, application/x-www-form-urlencoded]
+tags: [iOS, URLComponents + URLQueryItem, application/x-www-form-urlencoded]
 published: true
 ---
 
