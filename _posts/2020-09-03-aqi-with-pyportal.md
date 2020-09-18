@@ -29,6 +29,8 @@ It doesn't support anything fancy, like the conversions for wildfire smoke, but 
 
 Project available at [e28eta/pyportal-aqi](https://github.com/e28eta/pyportal-aqi)
 
+![photo of AQI display from code]({{ site.url }}/images/pyportal-aqi-photo.png)
+
 ----
 
 I didn't spend very long studying the [PyPortal library](https://circuitpython.readthedocs.io/projects/pyportal/en/latest/api.html), but I think it's interesting. It takes the "fetch some data & display it on screen" task, and abstracts it into a declarative process. However, the provided API breaks down in the [PyPortal_AirQuality](https://learn.adafruit.com/pyportal-air-quality-display/code-pyportal-with-circuitpython) example project, and it has to be augmented with procedural code to change the background color based on the AQI.
