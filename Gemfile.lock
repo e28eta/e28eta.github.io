@@ -287,6 +287,12 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compose
+  jekyll-feed
+  jekyll-gist
+  jekyll-include-cache
+  jekyll-paginate
+  jekyll-sitemap
+  jemoji
   rack-jekyll
 
 BUNDLED WITH
