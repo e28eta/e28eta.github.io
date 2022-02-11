@@ -206,24 +206,41 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
+# https://jekyllrb.com/docs/plugins/installation/
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+    # per docs, these are some that're auto-enabled and cannot be disabled
+    # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins
+  - jekyll-coffeescript
+  - jekyll-default-layout
   - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+  # additional plugins recommended by minimal mistakes theme
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jemoji
 
-# mimic GitHub Pages with --safe
+# mimic GitHub Pages with --safe, this needs to duplicate all/most of the above
+safe: true
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-default-layout
   - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jemoji
 
 
 # Archives
