@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
+gem 'puma'
 gem 'github-pages', group: :jekyll_plugins
 
 group :dev do

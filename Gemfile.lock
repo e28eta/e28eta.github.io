@@ -234,6 +234,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+    nio4r (2.5.8)
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.22.0)
@@ -242,6 +243,8 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
+    puma (5.6.1)
+      nio4r (~> 2.0)
     racc (1.6.0)
     rack (1.6.13)
     rack-jekyll (0.5.0)
@@ -293,6 +296,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jemoji
+  puma
   rack-jekyll
 
 BUNDLED WITH
