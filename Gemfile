@@ -6,8 +6,9 @@ gem 'github-pages', group: :jekyll_plugins
 
 group :dev do
     gem 'rack-jekyll'
-    gem 'jekyll-compose'
 end
+
+gem 'jekyll-compose', group: [:jekyll_plugins, :dev]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
