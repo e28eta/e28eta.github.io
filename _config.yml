@@ -135,18 +135,19 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .rvmrc
   - .asset-cache
   - .babelrc
   - .bundle
   - .jekyll-assets-cache
   - .powrc
+  - .rvmrc
   - .sass-cache
-  - assets/js/plugins
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
   - assets/js/_main.js
+  - assets/js/plugins
   - assets/js/vendor
   - Capfile
   - CHANGELOG
@@ -163,8 +164,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - vendor
 keep_files:
   - .git
   - .svn
