@@ -3,4 +3,7 @@ require 'rack/jekyll'
 # https://github.com/github/pages-gem/blob/master/lib/github-pages/configuration.rb
 require 'github-pages'
 
-run Rack::Jekyll.new(:auto => true, "url" => "http://blog.test")
+run Rack::Jekyll.new(:auto => true,
+                     :force_build => true,
+                     "url" => "http://blog.test",
+                     "show_drafts" => true)

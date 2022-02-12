@@ -293,3 +293,13 @@ defaults:
       comments: # true
       share: # true
       related: true
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      layout: single
+      tags:
+    posts:
+      layout: single
+      tags:
