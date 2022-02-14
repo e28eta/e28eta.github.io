@@ -5,7 +5,7 @@ gem 'puma'
 gem 'github-pages', group: :jekyll_plugins
 
 group :dev do
-    gem 'rack-jekyll'
+    gem 'rack-jekyll', git: 'https://github.com/adaoraul/rack-jekyll'
 end
 
 gem 'jekyll-compose', group: [:jekyll_plugins, :dev]
