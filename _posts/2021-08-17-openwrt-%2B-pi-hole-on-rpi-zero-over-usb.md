@@ -62,6 +62,17 @@ My solution was to use the Pi-hole [Home Assistant Integration](https://www.home
 ### Cold Spares
 Now that my partner is WFH full time, having a reliable network is very important. I’m going to upgrade the software and keep the old hardware as spares that can be swapped in.
 
+Edit: Looks like my (ancient) router is not quite as easy to setup. I've tried installing `kmod-usb-gadget-eth`, and then `kmod-usb-gadget-cdc-composite`, but still no luck on getting `usb0` to appear on the OpenWrt device. So now I feel better that it *was* likely much harder last time.
+Worse, I'm not sure where to go from here. `modprobe g_ether` was a thing suggested somewhere, and that results in:
+```
+[  640.993377] udc-core: couldn't find an available UDC - added [g_ether] to list of pending drivers
+```
+
+`lsusb` successfully identifies that there's an Ethernet gadget connected, but nothing else seems to happen:
+```
+Bus 001 Device 002: ID 0525:a4a2 Linux 5.10.52+ with 20980000.usb RNDIS/Ethernet Gadget
+```
+
 Worst case, I could simply re-enable the router’s DHCP server and use one of the several publicly available DNS servers, but having the spare hardware is cheap insurance and it'd be nice to keep blocking ads while I figure out how to fix things.
 
 ----
