@@ -6,6 +6,8 @@ gem 'github-pages', group: :jekyll_plugins
 
 group :dev do
     gem 'rack-jekyll', git: 'https://github.com/adaoraul/rack-jekyll'
+    # install matching version of remote gem to make it easier to browse included files
+    gem 'minimal-mistakes-jekyll', "4.24.0"
 end
 
 gem 'jekyll-compose', group: [:jekyll_plugins, :dev]
