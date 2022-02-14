@@ -5,5 +5,9 @@ require 'github-pages'
 
 run Rack::Jekyll.new(:auto => true,
                      :force_build => true,
-                     "url" => "http://blog.test",
-                     "show_drafts" => true)
+                     :future => true,
+                     :show_drafts => true,
+                     :strict_front_matter => true,
+                     :unpublished => true,
+                     :url => "http://blog.test",
+                     :verbose => true)
