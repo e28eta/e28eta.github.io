@@ -1,0 +1,2 @@
+# trigger asdf / direnv to use local gems
+eval "$(direnv export bash)"
