@@ -91,19 +91,19 @@ social:
     - "https://github.com/e28eta"
 
 # Analytics
-analytics:
-  provider               : "custom" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id:
-      development        : "UA-93460942-2"
-      production         : "UA-93460942-1"
+# analytics:
+#   provider               : "custom" # false (default), "google", "google-universal", "google-gtag", "custom"
+#   google:
+#     tracking_id:
+#       development        : "UA-93460942-2"
+#       production         : "UA-93460942-1"
 
 
 # Site Author
 author:
   name             : "Dan Jackson"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : 
+  bio              :
   location         : "California"
   email            :
   uri              :
@@ -133,8 +133,8 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  # links: # array of dictionaries with label, icon (font-awesome selectors), url 
-  
+  # links: # array of dictionaries with label, icon (font-awesome selectors), url
+
 # Site Footer
 footer:
   links:
