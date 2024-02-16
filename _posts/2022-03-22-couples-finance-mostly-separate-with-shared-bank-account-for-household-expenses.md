@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 'Couples finance: mostly separate with shared bank account for household expenses'
-tags: [personal finance, accounting, splitwise]
+tags: [personal finance, accounting, splitwise, api]
 ---
 
 We've successfully used [Splitwise](https://www.splitwise.com) to track contributions to a shared bank account, as well as payment of joint expenses from that bank account *and* by each individual.
@@ -73,3 +73,9 @@ Something that's been nice about this setup is that it scales well. The primary 
 I suspect we'll have a shared credit card soon, which would make it even easier to split restaurants (etc). Instead of entering every meal (ugh, who has time for that?), just use the monthly statement to roll them up into a single entry that's split in half between us.
 
 Before we know it, we'll have our joint accounts paying for everything that's shared, we'll work together on savings & retirement goals, and eventually erase the distinction between my money and hers. Until then, thanks Splitwise!
+
+# 2024 Update
+
+Late last year, Splitwise added limits on the number of expenses that a free account can add per day. We have _maybe_ 10 per month, but since we don't stay on top of it, this limit is painful. Not painful enough that we'd want to pay for a premium account ($5/mo or $40/yr), because there's no way we get that much value from it.
+
+I found a reddit comment that the older Android clients don't enforce the daily expense entry limits. It turns out their publically documented API doesn't enforce it either. So I wandered over to https://dev.splitwise.com/ and entered almost a year's worth of expenses in an afternoon, using my [API client](https://paw.cloud) of choice 🎉
