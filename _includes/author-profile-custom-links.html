@@ -1,13 +1,13 @@
   {% if author.hacker_news %}
   <li>
-    <a href="https://news.ycombinator.com/user?id={{ author.hacker_news }}" itemprop="sameAs">
+    <a href="https://news.ycombinator.com/user?id={{ author.hacker_news }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fab fa-fw fa-hacker-news" aria-hidden="true"></i> Hacker News
     </a>
   </li>
   {% endif %}
   {% if author.work_github %}
   <li>
-    <a href="https://github.com/{{ author.work_github }}" itemprop="sameAs">
+    <a href="https://github.com/{{ author.work_github }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fab fa-fw fa-github" aria-hidden="true"></i> Work GitHub
     </a>
   </li>
