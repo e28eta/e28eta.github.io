@@ -150,6 +150,9 @@ footer:
   links:
     # array of dictionaries with label, icon (font-awesome selectors), url
 
+error404:
+  report_url_text: "github"
+  report_url_link: "https://github.com/e28eta/e28eta.github.io/issues"
 
 # Reading Files
 include:
