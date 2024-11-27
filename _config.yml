@@ -74,7 +74,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : _danj_
+  username               : # _danj_
 facebook:
   username               :
   app_id                 :
@@ -86,7 +86,7 @@ social:
   type                   : "Person" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/_danj_"
+    # - "https://twitter.com/_danj_"
     - "https://www.linkedin.com/in/daniel-jackson-946a8b6b"
     - "https://github.com/e28eta"
 
@@ -128,7 +128,7 @@ author:
   stackoverflow    : "1196205/dan-jackson" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : _danj_
+  twitter          : # _danj_
   vine             :
   weibo            :
   xing             :
