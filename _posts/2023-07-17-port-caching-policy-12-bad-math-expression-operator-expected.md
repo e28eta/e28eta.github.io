@@ -3,6 +3,7 @@ layout: single
 title: '_port_caching_policy:12: bad math expression: operator expected'
 tags: [zsh, bug, zsh4humans, macports]
 published: true
+date: 2023-07-17
 ---
 
 Today, I was doing a [MacPorts](https://www.macports.org) self update, and wanted to see what was outdated. However, I got an interesting error when hitting tab to show auto-completion options:

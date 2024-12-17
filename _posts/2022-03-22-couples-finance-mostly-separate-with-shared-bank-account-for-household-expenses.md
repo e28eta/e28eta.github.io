@@ -2,6 +2,7 @@
 layout: single
 title: 'Couples finance: mostly separate with shared bank account for household expenses'
 tags: [personal finance, accounting, splitwise, api]
+date: 2022-03-22
 ---
 
 We've successfully used [Splitwise](https://www.splitwise.com) to track contributions to a shared bank account, as well as payment of joint expenses from that bank account *and* by each individual.

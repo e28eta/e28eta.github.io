@@ -2,6 +2,7 @@
 layout: single
 title: 'My First Gem: installing gem documentation into Dash'
 tags: [documentation, development, ruby, bundler, dash.app]
+date: 2022-03-06
 ---
 
 I've been a long time user of [Dash.app](https://kapeli.com/dash). Most of my professional development happens on iOS, and Dash + [Alfred](https://www.alfredapp.com) worked their way into my workflow, even though I was previously entirely satisfied with the built-in Xcode documentation viewer. My passion / desire for code documentation goes back to the days where I'd added [appledoc](https://github.com/tomaz/appledoc) generation to our Xcode builds & was publishing a docset of our application code through CI. To this day, I don't know if the handful of other devs on the project used it, nor whether it remained working for very long after I left (which yes, I know means it was probably a bad use of my time, although I _think_ the build failures for missing documentation were a net positive).
