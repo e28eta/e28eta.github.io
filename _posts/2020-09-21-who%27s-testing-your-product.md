@@ -36,7 +36,7 @@ I believe this is the real value of having someone dedicated to assuring the qua
 
 Pair programming might be a reasonable alternative to a separate role (I don’t know). I like that it adds a second person thinking deeply about this particular problem, which I think is key to high quality. And a pair with different experience levels could benefit from both the experience to avoid subtle issues and the increased collaboration driven by questions and explanations.
 
-Every bug is different, and every company is different, so I’m not saying every company needs a QA department. However I think it’s important to consider how you’re filling their role (or not!), and what that’ll cost. If you lose someone’s progress in a game, that’s one thing. If you ruin someone’s business, that’s a completely different level of bug. 
+Every bug is different, and every company is different, so I’m not saying every company needs a QA department. However I think it’s important to consider how you’re filling their role (or not!), and what that’ll cost. If you lose someone’s progress in a game, that’s one thing. If you ruin someone’s business, that’s a completely different level of bug.
 
 As your product grows in scale, the potential impact of a bug grows too.  I think this should lead to increasingly risk-adverse organizations. How you choose to manage that risk is a complicated decision. I really like the idea of explicitly paying specific people to ensure the product quality improves.
 
