@@ -2,10 +2,10 @@
 layout: single
 title: Internal search & Go Links
 tags:
-  - development
-  - projects
+- development
+- projects
+date: 2025-01-01 18:25 -0800
 ---
-
 When I started working at Stripe, I was on a team of new hires who did some work to re-vamp the internal search. These projects are small, well-scoped, and designed to be a quick introduction to development processes at the company, even if they have nothing to do with your day-to-day work. Which was certainly true for me, because it had little to do with the mobile development role I'd been hired for. However, I did find a feature to add that I remain proud of.
 
 ## Go Links in Search
