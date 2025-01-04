@@ -18,7 +18,7 @@ I really liked the project, and found it rewarding working on internal tooling t
 
 ## Video conferencing links
 
-My last shipped feature was another internal feature, and it was directly driven from the upcoming COVID pandemic. I'd given my two week notice, and was about to start [funemployment]({% post_url 2020-03-17-funemployment %}). During my last two weeks of work, they announced an office shutdown. I'd done (what I think was) enough to hand off my "real" work, and was trying to find small pieces of work where I could continue to add value.
+My last shipped feature was another internal feature, and it was directly driven from the upcoming COVID pandemic. I'd given my two-week notice, and was about to start [funemployment]({% post_url 2020-03-17-funemployment %}). During my last two weeks of work, they announced an office shutdown. I'd done (what I think was) enough to hand off my "real" work, and was trying to find small pieces of work where I could continue to add value.
 
 This was almost 5 years ago, and I haven't thought about it much since then, but to the best of my recollection:
 
@@ -26,8 +26,8 @@ Stripe was using BlueJeans as their video conferencing (the specific service isn
 
 I honestly don't remember the specifics, but drawing on the experience I had from the previously discussed project, I quickly added a feature that let people link their Stripe username with their video conferencing identifier. It worked out of the box for most employees, and the ones who needed to customize it were able to.
 
-I _think_ it was part of your customizable employee profile (where you could edit your name, pronouns, interests, location, etc), and I think it was used as `go/bj/<username>`. If that `username` had an customization, it'd use it, otherwise it'd just use the `username` directly. I _also think_ I put that link on the search result display for a Person, but I wouldn't swear to it in court.
+I _think_ it was part of your customizable employee profile (where you could edit your name, pronouns, interests, location, etc), and I think it was used as `go/bj/<username>`. If that `username` had a customization, it'd use it, otherwise it'd just use the `username` directly. I _also think_ I put that link on the search result display for a Person, but I wouldn't swear to it in court.
 
-I got it reviewed, deployed, and had time to write a Shipped email announcing it. If I remember correctly that email went out late afternoon on my last day. I don't actually know how well it was received, but I had high hopes it'd be useful.
+I got it reviewed, deployed, and had time to write a Shipped email announcing it. If I remember correctly, that email went out late afternoon on my last day. I don't actually know how well it was received, but I had high hopes it'd be useful.
 
 I also thought there was something poetic about starting & ending my tenure with internal tooling improvements.
