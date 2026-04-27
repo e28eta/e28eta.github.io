@@ -4,6 +4,7 @@ Equivalent to https://github.com/mmistakes/minimal-mistakes/blob/master/_include
 {% endcomment %}
 {% assign items_min = include.minimum_count | default: 1 %}
 
+{% assign locale = include.locale | default: site.locale %}
 {% assign items_max = 0 %}
 {% for item in include.taxonomies %}
   {% if item[1].size > items_max %}
@@ -33,10 +34,10 @@ Equivalent to https://github.com/mmistakes/minimal-mistakes/blob/master/_include
         <h2 class="archive__subtitle">{{ taxonomy[0] }}</h2>
         <div class="entries-{{ entries_layout }}">
           {% for post in taxonomy.last %}
-            {% include archive-single.html type=entries_layout %}
+            {% include archive-single.html locale=locale type=entries_layout %}
           {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+        <a href="#page-title" class="back-to-top">{{ site.data.ui-text[locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
   {% endfor %}

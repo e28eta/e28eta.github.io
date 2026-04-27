@@ -6,6 +6,8 @@ layout: archive
 Equivalent to https://github.com/mmistakes/minimal-mistakes/blob/master/_layouts/tags.html but passes a minimum_count
 {% endcomment %}
 
+{%- assign locale = page.locale | default: layout.locale | default: site.locale %}
+
 {{ content }}
 
-{% include posts-taxonomy-with-minimum.html taxonomies=site.tags minimum_count=page.minimum_tag_count %}
+{% include posts-taxonomy-with-minimum.html locale=locale taxonomies=site.tags minimum_count=page.minimum_tag_count %}
