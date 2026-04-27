@@ -272,6 +272,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jemoji
+  # adding some more plugins:
+  - jekyll-seo-tag # per gemini this creates meta tags for social sharing
 
 # mimic GitHub Pages with --safe, this needs to duplicate all/most of the above
 safe: true
@@ -289,6 +291,7 @@ whitelist:
   - jekyll-include-cache
   - jekyll-sitemap
   - jemoji
+  - jekyll-seo-tag
 
 
 # Archives
