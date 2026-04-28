@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "djackson.org"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Dan Jackson"
+name                     : &name "Dan Jackson" # &name is a YAML anchor which can be *referenced later
 description              : "Personal blog: interests include technology, programming, iOS, woodworking, and others."
 url                      : "https://www.djackson.org" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -111,44 +111,36 @@ social:
 
 # Site Author
 author:
-  name             : "Dan Jackson"
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :
   location         : "California"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "e28eta"
-  work_github      : "danj-stripe"
-  gitlab           :
-  google_plus      :
-  hacker_news      : "e28eta"
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "daniel-jackson-946a8b6b"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : "1196205/dan-jackson" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
   twitter          : # _danj_
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-  # links: # array of dictionaries with label, icon (font-awesome selectors), url
+  links: # array of dictionaries with label, icon (font-awesome selectors), url
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: "https://www.linkedin.com/in/daniel-jackson-946a8b6b"
+    - label: "Personal Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/e28eta/"
+    - label: "danj-stripe (2017-2020)"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/danj-stripe"
+    - label: "Hacker News"
+      icon: "fab fa-fw fa-hacker-news"
+      url: "https://news.ycombinator.com/user?id=e28eta"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/1196205/dan-jackson"
 
 # Site Footer
 footer:
   links:
     # array of dictionaries with label, icon (font-awesome selectors), url
+  since: "2017"
 
 error404:
   report_url_text: "github"
